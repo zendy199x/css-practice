@@ -48,21 +48,23 @@ li {
 }
 
 .contactTop ul {
-
+    text-align: right;
 }
 
 .contactTop ul li {
     display: inline-block;
     color: #999;
     margin-left: 20px;
+    font-size: 15px;
 }
 
 .navTop {
-
+    padding: 15px;
 }
 
 .navTop .socialTop {
     float: right;
+    margin-left: 3em;
 }
 
 .navTop .socialTop li {
@@ -71,14 +73,37 @@ li {
 }
 
 .navTop .socialTop li a{
-    display: inline-block;
     padding: 2px 3px;
+    color: #000;
+}
+
+.navTop .socialTop li a:hover {
+    color: #82b62d;
 }
 
 .navTop nav {
-
+    display: block;
+    white-space: nowrap;
+    float: left;
 }
 
 .navTop nav li{
-    display: inline-block
+    display: inline-block;
+    padding: 0 0.2em;
+}
+
+.navTop nav li a {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    padding: 2px 6px;
+}
+
+.navTop nav li a:hover {
+    color: #82b62d;
+}
+
+.navTop nav li.active a {
+    color: #de4c1d;
 }
