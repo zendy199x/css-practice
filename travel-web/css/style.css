@@ -59,7 +59,9 @@ li {
 }
 
 .navTop {
-    padding: 15px;
+    line-height: 2em;
+    padding: 17px 0;
+    overflow: hidden;
 }
 
 .navTop .socialTop {
@@ -106,4 +108,49 @@ li {
 
 .navTop nav li.active a {
     color: #de4c1d;
+}
+
+.sectionMain {
+    padding: 3.5em 0;
+    background: #fff;
+}
+
+.sectionSlider {
+    background-color: #fff;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+    height: 650px;
+}
+
+.slider {
+    padding: 3em;
+}
+
+.slider .sliderContent {
+    text-align: center;
+    color: #fff;
+}
+
+.slider .sliderContent h5 {
+    font-size: 1.5 em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.4 em;
+}
+
+.slider .sliderContent h2 {
+    font-size: 1.5em;
+
+}
+
+.slider .sliderContent p {
+    text-align: center;
+    color: #fff;
+}
+
+.slider .sliderContent a {
+    text-align: center;
+    color: #fff;
 }
